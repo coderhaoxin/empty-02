@@ -37,6 +37,7 @@ describe('## koao-mongo', function() {
           desc: 'world'
         })
         .then(function(result) {
+          assert.equal(result.name, 'haoxin')
           assert.equal(result.desc, 'world')
         })
     })

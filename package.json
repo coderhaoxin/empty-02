@@ -1,6 +1,6 @@
 {
   "name": "koao-mongo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "mongodb adaptor for koao",
   "main": "lib/index.js",
   "scripts": {
@@ -16,6 +16,9 @@
   ],
   "author": "haoxin",
   "license": "MIT",
+  "files": [
+    "lib/"
+  ],
   "dependencies": {
     "mongodb": "2",
     "mongodb-next": "0"
